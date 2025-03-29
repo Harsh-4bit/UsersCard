@@ -21,3 +21,8 @@
   App : 1. All the routes are defined in this component ex:- Login -> '/' (default route)
 
   EndPage : An additional page provided incase user delates all data (edge case)
+  ![image](https://github.com/user-attachments/assets/2400073f-5d1a-4345-9a1a-b45b6d0c751d)
+  
+  
+  ![image](https://github.com/user-attachments/assets/c37fbee5-63a7-46f9-89bd-ae7d5858fa71)
+
