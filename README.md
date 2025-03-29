@@ -1,12 +1,23 @@
-# React + Vite
+#HOW TO RUN
+  This project is deployed using Vercel.
+  LIVE LINK:  https://users-card-neon.vercel.app/   
+  E-mail: eve.holt@reqres.in
+  Password: cityslicka
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+(Navigation using React Router)
+#Components:
+    Login : 1. Login interface for users
+            2. API handeling using AXIOS
+            3. Authentication using 'POST/api/login' implemented in loginClick() function.
+            4. Additinal feature added for password visibility.
+            
+  UserList : 1. one user per page rendered.
+             2. providered functionalities to edit / delete information through saveClick() / delClick() function
+             3. Proper alerts occur hence notifieng user regarding any updates.
+             4. Different pages are navigated using 'React Router'
+             5. Persistency is handeled through storing essential data in localStorage
+             6. Pages are enumerated. 
 
-Currently, two official plugins are available:
+  App : 1. All the routes are defined in this component ex:- Login -> '/' (default route)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  EndPage : An additional page provided incase user delates all data (edge case)
